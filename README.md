@@ -1,6 +1,6 @@
 # Life-Tools
 All the tools you need for a social life.
 
-#Including...
+# Including...
 ...maps (mapscii)
 ...wheather (wttr.in)
