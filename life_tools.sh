@@ -12,7 +12,7 @@ echo "                                M3-Sec.        V: 0.01    ";
 echo "";
 echo "1     Map";
 echo "2     Weather";
-echo "3     Install";
+echo "";
 echo "4     Update"
 echo "5     exit";
 read input
@@ -24,9 +24,6 @@ elif [[ $input == 2 ]]; then
     echo "Please enter your Location:"
     read location
     curl wttr.in/$location
-elif [[ $input == 3 ]]; then
-    cd
-    echo "alias Life-Tools='bash ~/Life-Tools/life_tools.sh'" >> .bashrc
 elif [[ $input == 4 ]]; then
     cd
     rm -rf Life-Tools
